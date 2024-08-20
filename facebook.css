@@ -1,0 +1,129 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after,
+*::marker {
+  box-sizing: inherit;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(222, 220, 224);
+  padding: 5;
+}
+.whole {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+  margin: 13%;
+}
+.right {
+  width: 50%;
+  margin: 7% 15% 10% 10%;
+}
+.righttop {
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  height: 330px;
+  width: 400px;
+  box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
+}
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer {
+  width: 100%;
+}
+.inputForm {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #dddef2;
+  padding: 10px;
+}
+.innput {
+  margin-top: 0px;
+}
+.facebook h3 {
+  color: rgb(48, 48, 240);
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+.para p {
+  font-size: 25px;
+  margin: 0;
+  display: flex;
+  width: 170%;
+}
+.inputContainer button {
+  background-color: rgb(37, 37, 247);
+  color: white;
+  font-size: 20px;
+  border-color: rgb(12, 12, 12);
+  width: 100%;
+  height: 43px;
+  border-radius: 5px;
+}
+
+.create button {
+  background-color: green;
+  color: white;
+  border-color: green;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+ margin-top:  -10px;
+
+}
+.but button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+.forgotpass {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
+hr {
+  width: 100%;
+}
+.create {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.rightbottom {
+  display: flex;
+  justify-content: center;
+}
+.password {
+  margin-bottom: 10px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
