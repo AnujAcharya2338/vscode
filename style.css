@@ -1,0 +1,10 @@
+.top{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.leftright{
+    display: flex;
+    justify-content:space-between;
+    gap: 8px;
+}
