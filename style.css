@@ -1,10 +1,19 @@
-.top{
-    display: flex;
-    justify-content:space-between;
-    
+.top {
+  display: flex;
+  justify-content: space-between;
 }
-.leftright{
-    display: flex;
-    justify-content:space-between;
-    gap: 8px;
+.leftright {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
